@@ -1,21 +1,9 @@
-body{
-    font-family: segoe ui;
+*{margin: 0; padding: 0;} 
 
+.container a img {
+    width: 20%;
 }
-h1{
-    text-align: center;
+.container{
+    align-items: center;
 }
 
-.dongke3{
-    width: 500px;
-}
-.dongke1{
-    width: 200px;
-}
-.dongke2{
-    width: 800px;
-}
-img{
-    width: 30%;
-
-}
