@@ -13,9 +13,12 @@ h1{
     width: 200px;
 }
 .dongke2{
-    width: 800px;
+    width: 600px;
 }
 img{
     width: 30%;
 
+}
+a{
+    margin-right: auto;
 }
