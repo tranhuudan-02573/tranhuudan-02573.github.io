@@ -306,7 +306,7 @@ margin-bottom: 20px;
         margin: auto;
         
     height: 445px;
-    padding: 137px 0;
+    padding: 235px 0;
     
     
 }
@@ -392,6 +392,9 @@ height: 153px;
         }
     html{
         width: 100%;
+    }
+    hr{
+        
     }
     
   
