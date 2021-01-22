@@ -6,4 +6,37 @@
 .container{
     align-items: center;
 }
+body{
+    font-family: segoe ui;
+    font-size: medium;
+    font-weight: 500;
+
+}
+h1{
+   
+    text-align: center;
+}
+
+
+.dongke1{
+    width: 25%;
+}
+.dongke2{
+    width: 50%;
+}
+img{
+    width: 30%;
+
+}
+a{
+    margin-right: auto;
+    text-decoration: none;
+    color: #666;
+}
+a >h1{
+    
+}
+h2{
+    color: red;
+}
 
