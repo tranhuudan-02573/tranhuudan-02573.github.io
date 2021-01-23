@@ -17,7 +17,7 @@
     }
     .banner_top{ 
         background: url(belton.jpg) top center;
-        height: 600px;
+        height: 590px;
         background-size: cover;
         position: relative;
         background-attachment: fixed;
@@ -28,13 +28,18 @@
         width: 100%;
         height: 100%;
         top: 0; left: 0;
-        background-image: -webkit-linear-gradient(left,#00000082 0%, rgb(0 0 0 / 18%), #00000069 100% );
+        /* background-image: -webkit-linear-gradient(left,#00000082 0%, rgb(0 0 0 / 18%), #00000069 100% ); */
+        background-color: rgba(0, 0, 0, 0.3);
     }
     .banner_top ._3cot{ 
         display: flex;
         position: absolute;
-        top: 0;
+        top: 20px;
         width: 100%;
+        height: 64px;
+       
+        justify-content: center;
+        align-items: center;
     } 
     .banner_top ._3cot ._1cot{ 
         width: 33.33%;
@@ -42,11 +47,14 @@
     .banner_top ._3cot ._1cot.cottrai{
         margin-right: 20px;
         display: block;
+        padding-left: 50px;
+        float: left;
+        
      } 
     .banner_top ._3cot ._1cot.cottrai a{
         font-size: 20px;
         color: white;
-        padding: 40px 50px ;
+        
         display: inline-block;
      } 
      .banner_top ._3cot ._1cot.cottrai a:hover{
@@ -64,8 +72,9 @@
         
      } 
      .banner_top ._3cot ._1cot.cotphai{
-         padding: 20px 40px;
+         padding-right: 50px;
          text-align: right;
+         line-height: 55px;
      }
     .banner_top ._3cot ._1cot.cotphai a{
         color: white;
@@ -74,27 +83,41 @@
         display: inline-block;
      } 
      .banner_top .text_banner{
-         width: 100%;
+         /* width: 100%; */
          position: absolute;
-         top: 30%;
+         /* top: 30%; */
          color: white;
+         padding: 244px 15px 120px 15px;
+         width: 1170px;
+         height: 213px;
+         margin-left: 12%;
+         margin-right: 15%;
+        
+
+        
      }
-     .banner_top .text_banner .content{
-            width: 900px;
-            margin: 100px 200px;
+     .banner_top .text_banner .content {
+        width: 100%;
+        padding-top: 10px;
+        
+
      }
-     .banner_top .text_banner .content h6{
+     
+     .banner_top .text_banner .content .we{
          font-family: var(--font1);
          font-size: var(--size1);
          line-height: var(--lineheight);
          color: white;
-         width: 57%;
-         margin-top: 20px;
+         font-weight: 600;
+         padding-top: 10px;
+         width: 50%;
+         
      }
      .banner_top .text_banner .content .small{
          font-size: 20px;
          line-height: 30px;
         font-weight: 400;
+        
      }
      .content1{
          width: 1170px;
@@ -111,6 +134,7 @@
      .content1 .left{
          width: 35%;
          /* margin-top: 100px; */
+         padding: 0 15px;
          
      }
      .content1 .left h3{
@@ -130,7 +154,7 @@
      }
      .content1 .right{
          width: 65%;
-         
+         padding: 0 15px;
          font-size: 20px;
      }
      .content1 .right p{
@@ -175,35 +199,48 @@
         
 
      }
+     .chuvahinh ._4hinh ._1hinh .box{
+width: 100%;
+height: 100%;
+        overflow: hidden;
+     }
      .chuvahinh ._4hinh ._1hinh{
-        width: 540px;
-        height: 540px;
+        
           position: relative; 
          padding: 15px;
          
          font-size: 28px;
-
+    
 
 
 
      }
-     .chuvahinh ._4hinh ._1hinh .hinh01 img{ 
-        width: 540px;
-        height: 540px;
+     .chuvahinh ._4hinh ._1hinh:hover .hinh01 { 
+        
+        transform: scale(1.1);
         
      }
-   .chuvahinh ._4hinh ._1hinh .hinh01 {   
+     .chuvahinh ._4hinh ._1hinh .hinh01 img{
+        
+        
+        width: 100%;
+        height: 100%;
+        
+     }
+   
+   .chuvahinh ._4hinh ._1hinh .box .hinh01 {   
     /* position: absolute; */
-    width: 100%;
-    height: 100%;
+    width: 540px;
+        height: 540px;
         background-size: cover;
       transition: 0.4s;
       
+        
       
         
         
     }
-    .chuvahinh ._4hinh ._1hinh .mauxam {
+    .chuvahinh ._4hinh ._1hinh .box .mauxam {
      width: 100%;
      height: 100%;
      background-color: rgba(0, 0, 0, 0.5);
@@ -216,12 +253,12 @@
      transition: 0.5s;
      
     }
-    .chuvahinh ._4hinh ._1hinh:hover .mauxam {
+    .chuvahinh ._4hinh ._1hinh:hover .box .mauxam {
         opacity: 1;
         
     }
 
-      .chuvahinh ._4hinh ._1hinh .chuto{
+      .chuvahinh ._4hinh ._1hinh .box .chuto{
         
          position: absolute;
          font-weight: 800;
@@ -233,13 +270,13 @@
          font-family: var(--font1);
         
      }
-     .chuvahinh ._4hinh ._1hinh .chuto a{
+     .chuvahinh ._4hinh ._1hinh .box .chuto a{
         
         text-decoration: none;
         color: #fff;
      }
     
-      .chuvahinh ._4hinh ._1hinh .chunho {
+      .chuvahinh ._4hinh ._1hinh .box .chunho {
         text-decoration: none;
         font-size: 17px;
         color: white;
@@ -256,14 +293,14 @@
 
      }
      
-      .chuvahinh ._4hinh ._1hinh:hover .chunho {
+      .chuvahinh ._4hinh ._1hinh:hover .box .chunho {
         
         transform: translate3d(0, -10px, 0);
            
          opacity: 1; 
          transition: 0.4s;          
      }
-      .chuvahinh ._4hinh ._1hinh:hover .chuto {
+      .chuvahinh ._4hinh ._1hinh:hover .box .chuto {
         
         transform: translate3d(0, -5px, 0);
              
@@ -288,6 +325,8 @@
          font-size: 17px;
          text-decoration: none;
          color: white;
+         width: 97px;
+         height: 29px;
      }
        .viewall a >.fa
      {font-size: 20px;
