@@ -134,7 +134,8 @@
      .content1 .left{
          width: 35%;
          /* margin-top: 100px; */
-         padding: 0 15px;
+         padding-left: 30px;
+         padding-right: 15px;
          
      }
      .content1 .left h3{
