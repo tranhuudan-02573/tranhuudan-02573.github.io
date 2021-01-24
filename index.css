@@ -543,6 +543,9 @@ color:white;
     text-align: center;
       display: none;
   }
+  img{
+    object-fit: cover;
+  }
 
   
 
