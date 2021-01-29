@@ -50,6 +50,7 @@
         padding-left: 50px;
         float: left;
         
+        
      } 
     .banner_top ._3cot ._1cot.cottrai a{
         font-size: 20px;
@@ -496,9 +497,9 @@ font-size: 14px;
   }
   .cuoi .loiket{
       display: flex;
-      width: 1110px;
+      width: 1120px;
       height: 100%;
-      margin: auto;
+      margin: auto 205px 15px;
       align-items: center;
 
   }
@@ -514,6 +515,8 @@ font-size: 14px;
   }
   .cuoi .loiket .madewith {
 color:white;
+float: right;
+
 
   }
   .cuoi .loiket .madewith .fa{
@@ -544,10 +547,15 @@ color:white;
       display: none;
   }
   img{
-    object-fit: cover;
+      object-fit: cover;
   }
+ 
 
-  
+
+  .fa.fa-bars {
+    color: white;
+    font-size: 21px;
+}
 
   
 
