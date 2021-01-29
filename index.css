@@ -555,6 +555,11 @@ float: right;
   .fa.fa-bars {
     color: white;
     font-size: 21px;
+    transition: 0.1s;
+}
+ .cottrai:hover .fa.fa-bars {
+     color: #0345bf;
+
 }
 
   
