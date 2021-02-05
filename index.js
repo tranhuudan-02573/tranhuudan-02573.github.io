@@ -11,5 +11,6 @@ $(function(){
 
     // viet hieu ung cho cac khoi
 
-    TweenMax.staggerFrom($('._1hinh'),1, {x:100,opacity:0,ease:Power4.easeOut,delay:1},0.4)
+    
+    new WOW().init();
 })
