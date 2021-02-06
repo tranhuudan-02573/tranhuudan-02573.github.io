@@ -587,6 +587,9 @@ float: right;
 
 
 }
+.commentfacebook.col-sm-8.push-2 {
+    transform: translateX(50%);
+}
 
   
 
