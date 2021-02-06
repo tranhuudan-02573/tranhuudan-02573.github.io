@@ -44,5 +44,19 @@ h2{
     height: 300px;
    margin-left: 29%;
 }
+.navbar-brand{
+  width:50%;
+}
+.menutop{
+    background: pink;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background: rgb(160, 101, 111);
+    position: relative;
+}
+
 
 
